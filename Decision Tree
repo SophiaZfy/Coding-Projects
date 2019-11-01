@@ -1,0 +1,33 @@
+Original Data Table
+
+Occupation  Gender  Age  Salary
+Service     Female  45   $48,000
+            Male    25   $25,000
+            Male    33   $35,000
+Management  Male    25   $45,000
+            Female  35   $65,000
+            Male    26   $45,000
+            Female  45   $70,000
+Sales       Female  40   $50,000
+            Male    30   $40,000
+Staff       Female  50   $40,000
+            Male    25   $25,000
+            
+
+The target variable Salary is discretized as:
+Less than $35,000             Level 1
+$35,000 to less than $45,000  Level 2
+$45,000 to less than $55,000  Level 3
+$55,000 and more              Level 4
+
+The predictor variable Age is discretized as:
+Less than 26         Level 1
+26 to less than 36   Level 2
+36 to less than 46   Level 3
+46 and older         Level 4
+
+The predictor variable Occupation is discretized as:
+Service      Level 1
+Management   Level 2
+Sales        Level 3
+Staff        Level 4
